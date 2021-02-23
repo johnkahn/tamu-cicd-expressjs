@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@americanairlines/simple-env@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@americanairlines/simple-env/-/simple-env-1.0.2.tgz#d1990b98f35a319c9ab7d298d01ff483fb3f1eae"
+  integrity sha512-+K2gEfG8u6S9X/zFB+mapAn3wkKK6ZSQwDQvn6+WK4Qb3htBqgcR9OFlgEY9pgXadmrua+5uqgCdH4/SaiNY6g==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1717,6 +1722,11 @@ dot-prop@^5.2.0:
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
+
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
 duplexer3@^0.1.4:
   version "0.1.4"

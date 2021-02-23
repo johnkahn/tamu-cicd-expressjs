@@ -12,7 +12,7 @@ module.exports = {
   testMatch: ['**/*.test.(ts|js)'],
   testEnvironment: 'node',
   preset: 'ts-jest',
-  collectCoverageFrom: ['./src/**/*.ts', '!./src/index.ts'],
+  collectCoverageFrom: ['./src/**/*.ts', '!./src/index.ts', '!./src/env.ts'],
   coverageDirectory: './coverage',
   coverageThreshold: {
     global: {

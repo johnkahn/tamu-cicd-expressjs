@@ -1,5 +1,9 @@
+import dotenv from 'dotenv';
 import { app } from './app';
+import { env } from './env';
 
-app.listen(3000, () => {
-  console.log('🚀 Listening at http://localhost:3000');
+dotenv.config();
+
+app.listen(env.port, () => {
+  console.log(`🚀 Listening at http://localhost:${env.port}`);
 });
