@@ -42,5 +42,5 @@ jobs:
       - name: Install dependencies
         if: steps.restore-node-modules.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
-      - name: Build
+      - name: Run tests with coverage
         run: yarn test:coverage
