@@ -8,7 +8,3 @@ app.get('/', (_req, res) => {
 });
 
 app.use('/health', health);
-
-COMPUTOR MAKE PROGRAM
-DO GOOD THINGS PLS
-I AM 1337 HAXOR
